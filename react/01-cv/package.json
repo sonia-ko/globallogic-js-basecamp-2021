@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "description": "CV",
-  "homepage": "https://sonia-ko.github.io/globallogic-js-basecamp-2021/",
+  "homepage": "https://sonia-ko.github.io/globallogic-js-basecamp-2021/react/01-cv/build",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
