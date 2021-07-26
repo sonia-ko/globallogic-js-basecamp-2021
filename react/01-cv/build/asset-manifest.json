@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.09dfe3d2.chunk.css",
+    "main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.15c9bab9.chunk.js",
+    "main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/main.15c9bab9.chunk.js.map",
+    "runtime-main.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.156d01a2.js",
+    "runtime-main.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/runtime-main.156d01a2.js.map",
+    "static/js/2.8aabc0c8.chunk.js": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.8aabc0c8.chunk.js",
+    "static/js/2.8aabc0c8.chunk.js.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.8aabc0c8.chunk.js.map",
+    "index.html": "/globallogic-js-basecamp-2021/react/01-cv/build/index.html",
+    "static/css/main.09dfe3d2.chunk.css.map": "/globallogic-js-basecamp-2021/react/01-cv/build/static/css/main.09dfe3d2.chunk.css.map",
+    "static/js/2.8aabc0c8.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/01-cv/build/static/js/2.8aabc0c8.chunk.js.LICENSE.txt",
+    "static/media/avatar.859aaa12.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/avatar.859aaa12.png",
+    "static/media/css.6c9fd512.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/css.6c9fd512.png",
+    "static/media/email.0651a75b.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/email.0651a75b.png",
+    "static/media/git-icon.941d083a.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/git-icon.941d083a.png",
+    "static/media/jira.71f777f7.jpg": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/jira.71f777f7.jpg",
+    "static/media/js.4b0c5805.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/js.4b0c5805.png",
+    "static/media/linkedin.032cf8a6.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/linkedin.032cf8a6.png",
+    "static/media/project1.bee02d1f.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/project1.bee02d1f.png",
+    "static/media/project2.6b942e2a.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/project2.6b942e2a.png",
+    "static/media/project3.95b44084.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/project3.95b44084.png",
+    "static/media/sql-icon-tra.d075ccd5.png": "/globallogic-js-basecamp-2021/react/01-cv/build/static/media/sql-icon-tra.d075ccd5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.156d01a2.js",
+    "static/js/2.8aabc0c8.chunk.js",
+    "static/css/main.09dfe3d2.chunk.css",
+    "static/js/main.15c9bab9.chunk.js"
+  ]
+}
