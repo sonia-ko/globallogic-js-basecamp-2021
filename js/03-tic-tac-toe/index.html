@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sonia Kozytska" />
+    <meta
+      name="description"
+      content="This page is an example of the most frequently used HTML tags and attributes"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <script defer type="module" src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tic Tac Toe</h1>
+        <div class="buttons">
+          <button class="start-game-btn">Start game</button>
+          <button class="check-rules-btn rules">Check rules</button>
+        </div>
+      </header>
+
+      <main>
+        <div class="game-state-window">
+          <p class="state-paragraph">
+            Please move the X sign to start the game.
+          </p>
+        </div>
+
+        <div class="game-area">
+          <div class="game-table-area">
+            <table>
+              <colgroup>
+                <col class="first-col" />
+                <col class="second-col" />
+                <col class="third-col" />
+              </colgroup>
+
+              <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+              </tr>
+
+              <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+              </tr>
+
+              <tr>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+                <td>&nbsp</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="side-menu">
+            <img
+              data-game-value="X"
+              class="x-image"
+              src="img/x_normal.png"
+              alt=""
+            />
+            <img
+              data-game-value="O"
+              class="o-image"
+              src="img/o_normal.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2>Welcome to the Tic Tac Toe game! 😍</h2>
+      <p class="rules-paragraph">Here are the basic rules of the game:</p>
+      <ul class="rules-list">
+        <li>The game is played on a grid that's 3 squares by 3 squares.</li>
+        <li>
+          You are X, your friend is O. Players take turns putting their marks in
+          empty squares.
+        </li>
+        <li>
+          The first player to get 3 of her marks in a row (up, down, across, or
+          diagonally) is the winner.
+        </li>
+        <li>
+          When all 9 squares are full, the game is over. If no player has 3
+          marks in a row, the game ends in a tie.
+        </li>
+      </ul>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
