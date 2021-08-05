@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/css/main.b9bad04f.chunk.css",
+    "main.js": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/main.aa8fa8d2.chunk.js",
+    "main.js.map": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/main.aa8fa8d2.chunk.js.map",
+    "runtime-main.js": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/runtime-main.693f042a.js",
+    "runtime-main.js.map": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/runtime-main.693f042a.js.map",
+    "static/js/2.4ceeb22a.chunk.js": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/2.4ceeb22a.chunk.js",
+    "static/js/2.4ceeb22a.chunk.js.map": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/2.4ceeb22a.chunk.js.map",
+    "index.html": "/globallogic-js-basecamp-2021/react/02-gomoku/build/index.html",
+    "static/css/main.b9bad04f.chunk.css.map": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/css/main.b9bad04f.chunk.css.map",
+    "static/js/2.4ceeb22a.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/02-gomoku/build/static/js/2.4ceeb22a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.693f042a.js",
+    "static/js/2.4ceeb22a.chunk.js",
+    "static/css/main.b9bad04f.chunk.css",
+    "static/js/main.aa8fa8d2.chunk.js"
+  ]
+}
