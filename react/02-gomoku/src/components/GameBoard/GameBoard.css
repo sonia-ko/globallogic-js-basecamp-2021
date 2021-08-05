@@ -1,0 +1,34 @@
+.gameboard {
+    /* disable when move to 15 */
+    display: flex;
+    width: 99%;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-height: 81.5vh;
+}
+
+.board {
+    display: flex;
+    margin: 0;
+}
+
+.board-container {
+    /* width: 70%; */
+    display: grid;
+    /* this value will be edited by js:  */
+    /* grid-template-columns: repeat(5, 1fr); */
+    grid-auto-rows: minmax(40px, 40px);
+    grid-gap: 0px;
+    padding-right: 1vw;
+    margin: 0 auto 3vh auto;
+}
+
+.sidebar {
+    width: 30%;
+    justify-self: flex-end;
+    overflow-y: scroll;
+}
+
+.winning {
+    background-color: orangered;
+}

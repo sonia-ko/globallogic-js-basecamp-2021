@@ -1,0 +1,27 @@
+.square {
+    background-color: rgba(235, 252, 252, 0.5);
+    text-align: center;
+    margin: 0.2vh;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.square div {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.square div {
+    margin: auto auto;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 1vh;
+    padding-bottom: 0.5vh;
+}
+
+.winning {
+    background-color: orangered;
+}
