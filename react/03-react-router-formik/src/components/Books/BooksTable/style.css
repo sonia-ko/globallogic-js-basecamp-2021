@@ -1,0 +1,98 @@
+.books-table {
+    table-layout: fixed;
+    width: 97%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 4vh;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.add-book-button-description {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 2vh 0;
+}
+
+.add-book-btn-container {
+    padding: 7vh 0;
+}
+
+.add-book-btn {
+    display: block;
+    margin: 0 auto;
+    width: 20vw;
+    font-size: 1.5rem;
+    padding: 1.5vw;
+    background-color: #55cfb5;
+    color: rgb(168, 127, 127);
+    border: none;
+}
+
+.books-table th {
+    background-color: #080a09;
+    color: rgba(173, 245, 230, 0.76);
+}
+
+.books-table th,
+.books-table td {
+    padding: 1vw;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.books-table td {
+    vertical-align: top;
+}
+
+.books-table td:nth-child(1) {
+    font-weight: 600;
+    color: black;
+}
+
+.books-table td {
+    color: #616058;
+}
+
+.books-table thead th:nth-child(1),
+.books-table thead th:nth-child(2),
+.books-table thead th:nth-child(4),
+.books-table thead th:nth-child(7),
+.books-table thead th:nth-child(5) {
+    width: 9%;
+}
+
+.books-table thead th:nth-child(3) {
+    width: 5%;
+}
+
+.books-table thead th:nth-child(6) {
+    width: 45%;
+}
+
+.done {
+    background-color: #86e09d;
+}
+
+.in-progress {
+    background-color: #fafc99;
+}
+
+.planning {
+    background-color: #c2c1ba;
+}
+
+.books-table button {
+    background-color: rgba(19, 19, 19, 0.055);
+    border: none;
+    margin: 1vh auto;
+    display: block;
+    cursor: pointer;
+}
+
+.books-table button:hover,
+.add-book-btn:hover {
+    background-color: rgba(160, 153, 153, 0.438);
+}

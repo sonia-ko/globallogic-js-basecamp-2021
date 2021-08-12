@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "book": "Arch of Triumph",
+        "author": "Erich Maria Remarque",
+        "personal_rating": 10,
+        "reading_status": "done",
+        "is_popular": true,
+        "description": "A novel about stateless refugees in Paris before World War II. Written during Remarque's exile in the United States, it was his second worldwide bestseller."
+    },
+    {
+        "id": 2,
+        "book": "Brave New World",
+        "author": "Aldous Huxley",
+        "personal_rating": "",
+        "reading_status": "done",
+        "is_popular": true,
+        "description": "Brave New World is a dystopian social science fiction novel.  Largely set in a futuristic World State, whose citizens are environmentally engineered into an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, psychological manipulation and classical conditioning that are combined to make a dystopian society."
+    },
+    {
+        "id": 3,
+        "book": "1984",
+        "author": "George Orwell",
+        "personal_rating": "",
+        "reading_status": "planning",
+        "is_popular": false,
+        "description": "A dystopian social science fiction novel. Thematically, it centres on the consequences of totalitarianism and repressive regimentation of persons and behaviours within society. Orwell modelled the totalitarian government in the novel after Stalinist Russia and Nazi Germany. The novel examines the role of facts within politics and the ways in which they are manipulated."
+    },
+    {
+        "id": 4,
+        "book": "An American Tragedy",
+        "author": " Theodore Dreiser",
+        "personal_rating": "",
+        "reading_status": "planning",
+        "is_popular": true,
+        "description": "The story of Clyde Griffiths, who spends his life in the desperate pursuit of success. On a deeper  level, it is the masterful portrayal of the society whose values both shape Clyde's ambitions and seal his fate; it is an unsurpassed depiction of the harsh realities of American life and of the dark side of the American dream. "
+    },
+    {
+        "id": 5,
+        "book": "Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "personal_rating": "",
+        "reading_status": "in progress",
+        "is_popular": false,
+        "description": " It is set in a near-future New England, in a strongly patriarchal, totalitarian theonomic state, known as Republic of Gilead, that has overthrown the United States government."
+    }
+]
