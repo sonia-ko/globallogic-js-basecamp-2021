@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "age": 16,
+        "username": "yaroslav",
+        "role": "admin",
+        "timestamp": 1627934490151
+    },
+    {
+        "id": 2,
+        "username": "John Snow",
+        "age": 78,
+        "role": "admin",
+        "timestamp": 1627934784096
+    },
+    {
+        "id": 3,
+        "username": "Robb Stark",
+        "age": 98,
+        "role": "user",
+        "timestamp": 1627934784096
+    }
+]

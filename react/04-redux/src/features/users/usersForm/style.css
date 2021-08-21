@@ -1,0 +1,33 @@
+input {
+    width: 200px;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+    height: 2rem;
+}
+
+form div {
+    margin: 1vh 0;
+}
+
+form button {
+    margin-top: 1vh;
+}
+
+select {
+    width: 200px;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+    height: 2rem;
+}
+
+.Input {
+    margin-top: 0px;
+}
+
+.error {
+    color: red;
+    display: block;
+    padding-bottom: 10px;
+}
