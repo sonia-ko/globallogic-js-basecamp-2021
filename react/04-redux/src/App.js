@@ -5,7 +5,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-
+import GlobalLoadingSpinner from "./components/loading/GlobalLoadingSpinner";
 import UserList from "./features/users/UserList";
 import Header from "./components/header/header";
 import PageNotFound from "./components/PageNotFound/PageNotFound";
@@ -15,11 +15,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header></Header>
-
+        <Header> </Header>
         <Switch>
           <Redirect exact from="/" to="/users" />
-
           <Route
             path="/users"
             render={() => (
@@ -28,13 +26,11 @@ function App() {
               </React.Fragment>
             )}
           />
-
           <Route path="/todolist">
             <TodoList />
           </Route>
-
           <Route>
-            <PageNotFound></PageNotFound>
+            <PageNotFound> </PageNotFound>
           </Route>
         </Switch>
       </div>

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/globallogic-js-basecamp-2021/react/04-redux/build/static/css/main.0431d9b1.chunk.css",
-    "main.js": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/main.f7933f26.chunk.js",
-    "main.js.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/main.f7933f26.chunk.js.map",
+    "main.css": "/globallogic-js-basecamp-2021/react/04-redux/build/static/css/main.0cda0eed.chunk.css",
+    "main.js": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/main.d83eb973.chunk.js",
+    "main.js.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/main.d83eb973.chunk.js.map",
     "runtime-main.js": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/runtime-main.18e5aa47.js",
     "runtime-main.js.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/runtime-main.18e5aa47.js.map",
-    "static/js/2.0c2e0adc.chunk.js": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0c2e0adc.chunk.js",
-    "static/js/2.0c2e0adc.chunk.js.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0c2e0adc.chunk.js.map",
+    "static/js/2.0bc1d2b5.chunk.js": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0bc1d2b5.chunk.js",
+    "static/js/2.0bc1d2b5.chunk.js.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0bc1d2b5.chunk.js.map",
     "index.html": "/globallogic-js-basecamp-2021/react/04-redux/build/index.html",
-    "static/css/main.0431d9b1.chunk.css.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/css/main.0431d9b1.chunk.css.map",
-    "static/js/2.0c2e0adc.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0c2e0adc.chunk.js.LICENSE.txt",
+    "static/css/main.0cda0eed.chunk.css.map": "/globallogic-js-basecamp-2021/react/04-redux/build/static/css/main.0cda0eed.chunk.css.map",
+    "static/js/2.0bc1d2b5.chunk.js.LICENSE.txt": "/globallogic-js-basecamp-2021/react/04-redux/build/static/js/2.0bc1d2b5.chunk.js.LICENSE.txt",
     "static/media/racoon.812c978c.png": "/globallogic-js-basecamp-2021/react/04-redux/build/static/media/racoon.812c978c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18e5aa47.js",
-    "static/js/2.0c2e0adc.chunk.js",
-    "static/css/main.0431d9b1.chunk.css",
-    "static/js/main.f7933f26.chunk.js"
+    "static/js/2.0bc1d2b5.chunk.js",
+    "static/css/main.0cda0eed.chunk.css",
+    "static/js/main.d83eb973.chunk.js"
   ]
 }

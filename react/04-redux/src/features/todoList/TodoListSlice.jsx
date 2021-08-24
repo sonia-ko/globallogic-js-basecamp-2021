@@ -9,21 +9,22 @@ const toDoListSlice = createSlice({
   name: "todoList",
   initialState,
   reducers: {
+    addTodo: {
+      reducer: (state, action) => {
+        state.todos.push(action.payload);
+        state.title = "";
+      },
+      prepare({ title }) {
+        const id = Date.now();
+        const isCompleted = false;
+        return {
+          payload: { id, title, isCompleted },
+        };
+      },
+    },
+
     setTitle(state, action) {
       state.title = action.payload;
-    },
-    prepare(id, title, todos) {
-      return {
-        payload: {
-          id: Date.now(),
-          title,
-          todos,
-        },
-      };
-    },
-    addTodo(state, action) {
-      state.title = "";
-      state.todos.push(action.payload);
     },
     toggleTodo(state, action) {
       state.todos = state.todos.map((todo) =>

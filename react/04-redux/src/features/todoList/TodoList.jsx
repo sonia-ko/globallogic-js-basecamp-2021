@@ -1,12 +1,12 @@
 import "./styles.scss";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   setTitle,
   addTodo,
   toggleTodo,
   deleteTodo,
 } from "../todoList/TodoListSlice";
-import { useSelector } from "react-redux";
+ 
 
 function TodoList() {
   const dispatch = useDispatch();
@@ -19,9 +19,8 @@ function TodoList() {
     if (title.trim()) {
       dispatch(
         addTodo({
-          id: Date.now(),
+          // I am leaving this as object, not as a string just in case it will be necessary to add some additional values in the future.
           title: title.trim(),
-          isCompleted: false,
         })
       );
     }
