@@ -2,8 +2,6 @@ import React from "react";
 import { Head } from "@react-ssr/express";
 import "./index.css";
 import Header from "./header";
-// const logo = require("./logo.jpg");
-// const Img = require(`./logo.jpg`).ReactComponent;
 
 const Index = ({ contentPages }) => {
   return (

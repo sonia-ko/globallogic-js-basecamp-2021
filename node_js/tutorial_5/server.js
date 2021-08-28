@@ -2,13 +2,10 @@ const express = require("express");
 const fs = require("fs");
 const env = require("dotenv").config({ path: "../.env" });
 const app = express();
-const jsonParser = express.json();
 // use npm i @react-ssr/express to install
 const register = require("@react-ssr/express/register");
 app.use(express.static(__dirname + "/public"));
 const contentPages = ["dogs", "cats", "birds"];
-// const bodyParser = require("body-parser");
-// app.use(bodyParser.json({ type: "*/*" }));
 
 // defining cats data
 const catsContent = fs.readFileSync("./api/cats.json", "utf8");
