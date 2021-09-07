@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+img {
+    width: 45%;
+}
+
+.pictures-list {
+    width: 100%;
+    background-image: linear-gradient( 90deg, rgba(44, 37, 37, 0.123) 100%, rgba(248, 238, 238, 0.096) 100%), url(https://libertycity.ru/uploads/download/gtavc_global/fulls/heclp0rqsfdno71uperubugim0/15622248483256_pxdxvcp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 6vh;
+}
+
+.gallery {
+    /* background-attachment: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+    margin: 0 auto;
+}
+
+.gallery>.pet-image-container {
+    flex: 1 1 30%;
+    /*grow | shrink | basis */
+    height: 57vh;
+}
+
+.pet-image-container {
+    /* background-color: #fff4e6;
+    border: 1px solid #f76707; */
+    padding: 1vh;
+}
+
+.pet-image-container img {
+    width: 100%;
+    height: 50vh;
+}
+
+.pet-image-container {
+    background-color: white;
+    width: 97%;
+    height: 40vh;
+    object-fit: cover;
+    display: block;
+    margin: 2vh 1vw;
+    border: 0.3rem solid white;
+    -webkit-box-shadow: 4px 1px 39px 9px rgba(39, 39, 39, 0.47);
+    -moz-box-shadow: 4px 1px 39px 9px rgba(20, 21, 22, 0.47);
+    box-shadow: 4px 1px 39px 9px rgba(14, 15, 15, 0.47);
+    transition: transform 0.2s;
+}
+
+.pet-image-container:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}
+
+.city-name {
+    font-family: "Amatic SC", cursive;
+    font-size: 2em;
+    background-color: white;
+    text-align: center;
+}
+
+.city-name:hover {
+    color: rebeccapurple;
+}
+
+.add-new-city-btn {
+    display: block;
+    padding: 3vh;
+}
+
+.add-new-city-btn:hover {
+    display: block;
+    padding: 3vh;
+    color: rgb(219, 199, 195);
+    background-color: rgb(86, 83, 88);
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .gallery>.pet-image-container {
+        flex: 1 1 30%;
+        /*grow | shrink | basis */
+        height: 42vh;
+    }
+    .pet-image-container img {
+        width: 100%;
+        height: 35vh;
+    }
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 420px) {
+    .gallery {
+        display: block;
+    }
+    .gallery>.pet-image-container {
+        display: block;
+        flex: 1 1 30%;
+        /*grow | shrink | basis */
+        height: 42vh;
+        padding: 1vh 1vw;
+    }
+    .pet-image-container img {
+        width: 100%;
+        height: 35vh;
+        padding: 0;
+    }
+}

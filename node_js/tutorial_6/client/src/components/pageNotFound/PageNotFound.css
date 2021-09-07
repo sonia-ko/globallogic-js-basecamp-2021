@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+.page-not-found {
+    font-family: "Roboto", sans-serif;
+    background-color: #37b08a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 15vh;
+    height: 50vh;
+    padding: 5vh;
+}
+
+.page-not-found h1 {
+    font-size: 10vh;
+    font-weight: bold;
+    color: white;
+}
+
+.page-not-found div {
+    font-size: 5vh;
+    color: white;
+}
+
+img {
+    width: 350px;
+}
+
+.pageNotFound {
+    background-image: linear-gradient( 90deg, rgba(2, 0, 36, 0.6) 100%, rgba(255, 255, 255, 0.8) 100%), url(https://www.citybreak.com/sites/cb_citybreak/files/styles/slide_large/public/ben-o-bro-wpU4veNGnHg-unsplash.jpg?h=41f55a5b&itok=xr1okfZF);
+}

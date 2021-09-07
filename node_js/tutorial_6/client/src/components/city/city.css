@@ -1,0 +1,55 @@
+.city-section-container {
+    width: 100%;
+    padding: 5vh 4vw;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-image: linear-gradient( 90deg, rgba(230, 210, 210, 0.623) 100%, rgba(248, 238, 238, 0.37) 100%), url(https://libertycity.ru/uploads/download/gtavc_global/fulls/heclp0rqsfdno71uperubugim0/15622248483256_pxdxvcp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.city-section__city-name {
+    width: 50%;
+    padding: 0 3vw;
+}
+
+.city-section-container img {
+    width: 45vw;
+    display: block;
+    float: left;
+    padding: 4vh 3vw;
+}
+
+.about-city {
+    padding: 2vh 0;
+    box-sizing: border-box;
+}
+
+.city-section-container ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 1.6vh 0;
+}
+
+.action-buttons {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.action-buttons button {
+    display: block;
+    width: 10vw;
+    margin: 0 0 0 2vw;
+    font-size: 1em;
+    padding: 1.5vh 1.5vw;
+}
+
+.city-header {
+    display: flex;
+}

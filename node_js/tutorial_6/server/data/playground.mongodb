@@ -1,0 +1,114 @@
+// MongoDB Playground
+
+
+// For starters, I  created a db with 2 documents: 
+
+// {"_id":{"$oid":"612c2a64ab2d9838d29599a7"},"id":"1","name":"Lviv","settled":1256,"picture":"https://blog.airbaltic.com/wp-content/uploads/2020/01/Lviv.jpg","places":"Old Town,  St George's Cathedral,  Market Square, City Hall, Chapel of the Boim Family.","description":" Lviv is one of the main cultural centres of Ukraine. Lviv was the centre of the historical regions of Red Ruthenia and Galicia. The historical heart of the city, with its old buildings and cobblestone streets, survived Soviet and German occupations during World War II largely unscathed. This city is very popular with the tourists in Ukraine.","country":"Ukraine"}
+
+// {"_id":{"$oid":"612c0128ab2d9838d2959953"},"name":"Budapest","settled":1873,"picture":"https://thenomadvisor.com/wp-content/uploads/2019/02/wheretostayinbudapest-780x435.jpg","country":"Hungary","description":"Budapest is the capital and most populous city of Hungary. It is the ninth-largest city in the European Union by population within city limits. Budapest has something for everyone – from dramatic history and flamboyant architecture to healing thermal waters and a nightlife that is unrivalled in Eastern and Central Europe.","places":"Buda Castle & Castle Hill, Hungarian Parliament Building & Crown Jewels, St. Stephen's Basilica, Fisherman's Bastion,  Matthias Church ","id":"2"}
+
+// The current database to use:
+use('cities');
+
+db.cities.insertOne(
+  // to rewrite the default mongo ID, we should use _id, not id as in this example:
+    { "id":"3","name":"Skiathos","settled":1207,"picture":"https://www.greeka.com/photos/sporades/skiathos/hero/skiathos-island-1920.jpg","places":"Lalaria Beach, Agios Nikolaos Church and Clock Tower, monastero di Panagia Evangelistria, The Blue House Art Gallery","description":"Skiathos is the most popular of the Greek islands of the Sporades group, in the Aegean sea. Boasting a beautiful- packed with pine trees- natural landscape and having over 60 stunning beaches, Skiathos Greece is a paradise for nature lovers! Skiathos Greece might be a small island, but it attracts thousands of visitors every summer!","country":"Greece"}
+)
+
+// output: 
+//{
+//   "acknowledged": true,
+//   "insertedId": {
+//     "$oid": "612d652946d77a803bb6a1e9"
+//   }
+// }
+
+// add multiple documents:
+
+db.cities.insertMany( [
+   {"id":"5","name":"Thessaloniki","settled":-315,"picture":"https://www.discovergreece.com/sites/default/files/styles/sc_658x483/public/2019-12/2-thessaloniki_and_the_white_tower_from_above-1.jpg?itok=k1Xhxv65","places":"The White Tower, Thessaloniki Waterfront, The Archaeological Sites, Ana Poli: old town, The Ancient Agora, The Arch of Galerius","description":" The city has always been known between Greeks for its vibrant city culture, including having the most cafes and bars per-capita than any other city in Europe; and as having some of the best nightlife and entertainment in the country, thanks to its large young population and multicultural feel. Trendy bars are scattered throughout the city and cater for all tastes, with many located on pedestrianized streets or along the coast, with sea views; while daily happenings and events take place throughout the city every ","country":"Greece"},
+   { "id":"6","name":"Kyiv","settled":482,"picture":"https://cdnp.flypgs.com/files/Sehirler-long-tail/Kyiv/kyiv-bag_ms_zl_k-anit.jpg","places":"Mariyinsky Palace, Independence Square, National Art Museum of Ukraine, Mezhyhirya: Former Presidential Palace","description":"The capital and most populous city of Ukraine. Kyiv is an important industrial, scientific, educational and cultural center of Eastern Europe. It is home to many high-tech industries, higher education institutions, and historical landmarks. The city has an extensive system of public transport and infrastructure","country":"Ukraine"},
+  { "id":"RqVYpTPU6x1XMWZY-OawA","name":"London","settled":-6000,"picture":"https://www.visitbritain.com/sites/default/files/styles/consumer_campaigns_hero_mobile/public/consumer_destinations/teaser_images/london.jpg?itok=hMmXmf6w","places":"Big Ben, Tower of London","description":"London is the capital of England and the United Kingdom and one of the largest and most important cities in the world. The area was originally settled by early hunter gatherers around 6,000 B.C., and researchers have found evidence of Bronze Age bridges and Iron Age forts near the River Thames.","country":"Great Britain","__v":0},
+  { "id":"oGgXNN2oYJ1oPOB3anHuR","name":"Varna","settled":0,"picture":"https://tripplanet.ru/wp-content/uploads/europe/bulgaria/varna/varna-dostoprimechatelnosti.jpg","places":"no favourite places. You can add them by clicking on the Edit button","description":"Varna is the second largest city in Bulgaria. It has a beautiful city center and a large park near it.","country":"Bulgaria","__v":0}, 
+  { "id":"G5n_G_qRFpnBsDAAMRsvm","name":"Ternopil","settled":1539,"picture":"https://www.kyivpost.com/wp-content/uploads/2016/07/28/p1aophbjs7161cje81egpat83j54/original.jpg","places":"Ternopil Pond, City center, Ternopil castle","description":"Ternopil[a] is a city in western Ukraine.  Ternopil is one of the major cities of Western Ukraine and the historical regions of Galicia and Podolia. ","country":"Ukraine","__v":0},
+  { "id":"4666666","name":"Luxor","picture":"https://www.enjoy-egypttours.com/images/Uploads/Items/egypt-luxor-temple-of-karnak20570464.jpg","places":"Temple of Karnak, Valley of the Kings, Luxor Temple, Temple of Deir al-Bahri (Queen Hatshepsuts Temple), Banana Island, Medinet Habu","description":"Luxor stands head and shoulders above Egypt's other towns for the sheer wealth of historic tourist attractions and things to do for travelers.The glut of Ancient Egypts giant-sized temples and tombs lined with vibrant wall paintings you can visit here makes the town an open-air museum, while if there are only so many monuments you can cope with, there are hot-air ballooning and felucca rides to temper temple overload.","country":"Egypt"},
+  {'test': 'to be deleted'},
+  {'test': 'to be deleted'},
+  {'test': 'to be deleted'}
+]);
+// FIND A DOCUMENT IN A DB:
+
+// find specific documents:
+myCursor = db.cities.find( {"id": 1} )
+
+// find documents where the id is less than 3:
+myCursor = db.cities.find( { "id": { $lt: 3 } } )
+
+// find all documents (up to 20):
+
+myCursor = db.cities.find( {} ) 
+ 
+// To log all the names of the cities to a console:
+db.cities.find().forEach( el =>  print( "name: " + el.name ) );
+
+// AND operator: 
+
+myCursor = db.cities.find( { 'id': 1, 'name': 'Lviv City'} )
+
+// OR operator:
+
+myCursor = db.cities.find( { $or: [ { id: 1 }, {name: 'Kyiv'} ] } )
+
+// AND + OR:
+
+myCursor = db.cities.find( {
+     id: { $lt: 5 },
+     $or: [ { name: 'Lviv City' }, { name: 'Budapest' } ]
+} )
+
+ // Update document:
+ 
+// $set to update the status field and the uom field embedded in the size document. To access the fields within embedded documents, the operation uses dot notation.
+// $currentDate to set the lastModified field to the current date.
+ db.cities.updateOne(
+    { "name" : "Lviv City" }, // specifies the document to update
+    {
+      $set: {  "name" : "Lviv" },
+      $currentDate: { "lastModified": true }
+    }
+)
+
+// Output:
+// {
+//   "acknowledged": true,
+//   "insertedId": null,
+//   "matchedCount": 1,
+//   "modifiedCount": 1,
+//   "upsertedCount": 0
+// }
+
+// Update many documents:
+
+db.cities.updateMany(
+    {}, // specifies the documents to update (all, in this case)
+    {
+       $set: { "visited" : true},
+       $currentDate : { "lastModified": true }
+    }
+)
+
+// DELETE document
+ db.cities.deleteOne(
+    { "id": 4 } // specifies the document to delete
+)
+
+db.cities.deleteMany(
+    { 'test': 'to be deleted' } // specifies the documents to delete
+)
+
+
+// output: 
+// {
+//   "acknowledged": true,
+//   "deletedCount": 3
+// }

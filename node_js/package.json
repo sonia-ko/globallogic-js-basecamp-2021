@@ -18,6 +18,11 @@
     "author": "sonia-ko",
     "license": "ISC",
     "dependencies": {
-        "dotenv": "^10.0.0"
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "formik": "^2.2.9",
+        "mongoose": "^6.0.4",
+        "yup": "^0.32.9"
     }
 }

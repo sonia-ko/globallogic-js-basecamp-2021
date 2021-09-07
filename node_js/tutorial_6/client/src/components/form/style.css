@@ -1,0 +1,125 @@
+.form-container {
+    width: 100%;
+    background-image: linear-gradient( 90deg, rgba(44, 37, 37, 0.123) 100%, rgba(248, 238, 238, 0.096) 100%), url(https://libertycity.ru/uploads/download/gtavc_global/fulls/heclp0rqsfdno71uperubugim0/15622248483256_pxdxvcp.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 4vh 0;
+}
+
+.city-form input,
+.city-form textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: inherit;
+    padding: 2.5vh 1vh;
+}
+
+.city-form {
+    font-size: 1.2rem;
+    width: 80%;
+    background-color: rgba(155, 110, 68, 0.623);
+    padding: 4vh;
+    margin: 16vh auto;
+    -webkit-box-shadow: -1px 2px 21px 6px rgba(232, 250, 245, 0.438);
+    -moz-box-shadow: -1px 2px 21px 6px rgba(244, 255, 252, 0.438);
+    box-shadow: -1px 2px 21px 6px rgba(249, 255, 253, 0.411);
+}
+
+.city-form h2 {
+    text-align: center;
+}
+
+.cities-form-questions {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.error-msg-city-form {
+    color: orangered;
+    padding-bottom: 2vh;
+}
+
+.city-form div {
+    padding: 1vh 0;
+}
+
+.city-form input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    padding: auto 0.3vw;
+    margin: auto 0.4vw;
+}
+
+.city-form input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    padding: auto 0.3vw;
+    margin: auto 0.4vw;
+}
+
+label {
+    font-size: 1.2rem;
+    display: block;
+}
+
+textarea {
+    height: 20vh;
+}
+
+.city-form button {
+    display: block;
+    margin: 5vh auto 0 auto;
+    padding: 2vh;
+    width: 10vw;
+    font-size: 1.3rem;
+    font-family: inherit;
+    background-color: rgb(31, 23, 21);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* scroll bar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    margin-top: 5rem;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #e6e7ff;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #1f2644;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0e0e16;
+}
+
+input,
+textarea {
+    background-color: rgba(218, 186, 179, 0.671);
+}
